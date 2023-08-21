@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    background: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    padding-top: 40px;
+}
+h1{
+    font-size: 50px;
+    color: #f25278;
+}
+.left h2{
+    font-weight: 500;
+}
+.left p, .right p{
+    color: dimgray;
+}
+.left, .right{
+    float: left;
+    width: 40%;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.right img, .left img{
+    width: 80%;
+}
+.hire-btn{
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-image: linear-gradient(45deg, #fc46aa, #f25278);
+}
+
+/***** Biography CSS Start *****/
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 40px;
+}
+.biography h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.biography .hire-btn{
+    text-transform: capitalize;
+}
+
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    padding-top: 40px;
+    text-align: center;
+}
+.title{
+    font-weight: 600;
+}
+.work{
+    display: inline-block;
+    padding-top: 40px;
+    width: 26%;
+    padding-left: 2%;
+    margin-left: 3%;
+}
+.work img{
+    width: 100%;
+}
+.footer{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 40px;
+    text-align: center;
+}
+.latest-bottom{
+    text-align: center;
+}
+.latest-bottom .title{
+    padding-top: 0px;
+}
+.latest-bottom h5{
+    padding-top: 50px;
+    font-weight: 600;
+}
+.latest-bottom h6{
+    color: dimgray;
+    font-weight: 500;
+}
+.latest-bottom p{
+    padding-top: 40px;
+    font-weight: 400;
+}
+.email{
+    position: relative;
+    top: 50px;
+    background-image: linear-gradient(180deg, #fc46aa, #f25278);
+    width: 400px;
+    height: 150px;
+    color: white;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.email p span{
+    font-size: 12px;
+    position: relative;
+    bottom: 10px;
+    padding-bottom: 50px;
+}
+.copyright{
+    position: relative;
+    top: 80px;
+    font-size: 14px;
+}
